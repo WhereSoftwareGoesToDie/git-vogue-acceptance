@@ -1,14 +1,15 @@
 module Main where
 
 import                   Data.List
-import Data.Text
-           import Data.Maybe
+import    			 Data.Maybe
 
-main :: IO ()
+main :: IO ()  
 main = do
-	putStrLn "hi"
-		mapM_ (putStrLn . doSomething) [1..10]
+	putStrLn $ concat ["hi",
+	  " there",				" my name is",
+	  " computer"]
+	mapM_ (putStrLn . doSomething) [1..10]
 
 doSomething :: Int -> String
 doSomething x =
-    "try " ++ show x
+    "try " ++ show x								
