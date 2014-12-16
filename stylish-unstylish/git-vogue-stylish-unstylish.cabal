@@ -1,0 +1,16 @@
+name:                git-vogue-stylish-unstylish
+version:             0.1.0.0
+synopsis:            Test package for git-vogue that fails stylish-haskell tests
+description:         Test package for git-vogue that fails stylish-haskell tests
+license:             BSD3
+license-file:        LICENSE
+author:              Anchor Engineering <engineering@anchor.com.au>
+maintainer:          Anchor Engineering <engineering@anchor.com.au>
+category:            Distribution
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable git-vogue-stylish-unstylish
+  main-is:             Main.hs
+  build-depends:       base >=4.7 && <4.8
+  default-language:    Haskell2010
