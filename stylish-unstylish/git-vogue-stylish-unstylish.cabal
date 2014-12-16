@@ -9,6 +9,7 @@ maintainer:          Anchor Engineering <engineering@anchor.com.au>
 category:            Distribution
 build-type:          Simple
 cabal-version:       >=1.10
+source-repository:   https://github.com/anchor/git-vogue-acceptance.git
 
 executable git-vogue-stylish-unstylish
   main-is:             Main.hs
