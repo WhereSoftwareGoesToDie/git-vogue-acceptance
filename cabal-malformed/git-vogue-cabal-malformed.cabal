@@ -1,0 +1,6 @@
+name:                git-vogue-cabal-malformed
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+category:            Distribution
+author:              Anchor Engineering <engineering@anchor.com.au>
